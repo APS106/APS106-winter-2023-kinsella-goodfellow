@@ -43,7 +43,7 @@ def visualizer(player1, player2, winner):
 
     # Player 2
     player2_image = mpimg.imread('images/{}.png'.format(player2.lower()))
-    ax3.set_title('Player 2', fontsize=24, y=1.05)
+    ax3.set_title('Computer', fontsize=24, y=1.05)
     ax3.imshow(player2_image)
     ax3.axes.xaxis.set_visible(False)
     ax3.axes.yaxis.set_visible(False)
