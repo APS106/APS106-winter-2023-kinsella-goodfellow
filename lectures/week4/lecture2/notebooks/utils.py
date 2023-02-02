@@ -82,13 +82,13 @@ def play_rpsls():
 
     result = rpsls_winner(user_input, computer_guess)
 
-    print("Player Choice:", user_input)
+    print("Your Choice:", user_input)
     print("Computer Choice:", computer_guess)
     if result == -1:
-        print('Winner: Player (-1)\n')
+        print('Outcome: You Win (-1)\n')
     elif result == 0:
-        print('Winner: Tie (0)\n')
+        print('Outcome: Tie (0)\n')
     else:
-        print('Winner: Computer (1)\n')
+        print('Outcome: Computer Wins (1)\n')
 
     return result
